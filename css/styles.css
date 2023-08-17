@@ -10,7 +10,7 @@
 
 .header {
     background: linear-gradient(to right, #EEF 0%, #eef calc(35% - 160px), transparent calc(63% - 30px), transparent calc(100% + 0px), #eef calc(64% + 160px), #eee 100%),
-    url("../images/teethDoctor.jpg") no-repeat top right;
+    url("../images/teethDoctor.webp") no-repeat top right;
     height: 600px;
     width: 100%;
     font-family: robotoregular, sans-serif;
