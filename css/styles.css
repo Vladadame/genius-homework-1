@@ -68,6 +68,11 @@
     font-weight: bold;
 }
 
+.special-conteiner {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 h2 {
     color: var(--blue-dark);
 }
@@ -195,7 +200,7 @@ body {
     height: 300px;
     border-radius: 100%;
     position: relative;
-    left: 60px;
+    left: 130px;
     top: -41px;
 }
 
@@ -205,18 +210,18 @@ body {
     border-radius: 100%;
     position: relative;
     top: 325px;
-    left: -60px;
+    left: -5px;
 }
 
 .bigstar {
     position: relative;
-    left: -400px;
+    left: -337px;
     top: 320px
 }
 
 .middlestar {
     position: relative;
-    left: -135px;
+    left: -85px
 }
 
 .smallstar {
@@ -367,7 +372,7 @@ body {
 }
 
 .img-content {
-    width: 499px;
+    width: 380px;
 }
 
 .text-to-presentation {
