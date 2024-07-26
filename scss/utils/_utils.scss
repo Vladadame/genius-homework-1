@@ -1,0 +1,82 @@
+.stars-animation{
+    animation-name: stars-animation;
+    animation-duration: 1.2s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+
+.center-class {
+    text-align: center;
+
+    padding-bottom: 46px;
+}
+
+@keyframes stars-animation {
+    0% {
+        transform: rotate(0) scale(0);
+      }
+      100% {
+        transform: rotate(360deg) scale(1);
+      }
+}
+
+.conteiner {
+    width: 100%;
+    padding: 0 24px;
+    margin: 0 auto;
+    max-width: 1288px;
+    scroll-behavior: smooth;
+}
+
+
+
+.modal-form-fields {
+    margin: 24px;
+}
+
+.titles {
+    font-size: 64px;
+    font-family: playregular;
+    font-weight: 700px;
+    line-height: 74px;
+    margin: 0;
+}
+
+.titles-extra {
+    font-size: 64px;
+    font-family: playregular;
+    font-weight: 700px;
+    line-height: 74px;
+    margin: 0;
+}
+
+.presentation {
+    display: flex;
+    gap: 32px;
+}
+
+.content-presentation {
+    width: 55%;
+}
+
+.img-content {
+    width: 45%;
+}
+
+.plain-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -34%;
+    font-size: 12px;
+    color: var(--gray-dark)
+}
+
+.map {
+    border-radius: 32px;
+}

@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./fonts/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
 <div class="header">
-    <div class="special-conteiner">
+    <div class="conteiner">
         <div class="navigation">
             <div class="logo">
                 <a href="#">Beaty <br> Zone</a>
@@ -19,10 +19,10 @@
                 <nav class="navig">
         
 
-                    <a href="#s1 link">Про нас</a>
-                    <a href="#s2 link">Чому ми</a>
-                    <a href="#s3 link">Наші процедури</a>
-                    <a href="#s4 link">Контакти</a>
+                    <a href="#About-us">Про нас</a>
+                    <a href="#Why-us">Чому ми</a>
+                    <a href="#Our-procedure">Наші процедури</a>
+                    <a href="#Contact">Контакти</a>
                 </nav>
             </div>
             <div class="contact">
@@ -49,7 +49,7 @@
         </div>
     </div>
     <div class="conteiner">
-        <div id="s1">
+        <div>
             <div>
                 <p class="names-text">Косметологічна клініка</p>
                 <h1 class="zagolovok">Beauty <br> Zone</h1>
@@ -58,12 +58,12 @@
                 <p class="plain-text">Запишись та отримай безкоштовну<br> консультацію нашого косметолога</p>
             </div>
         
-        </div> <!--add img and button-->
+        </div>
     </div>
 </div>
 <div class="main">
     <div class="conteiner">
-            <div class="presentation">
+            <div class="presentation" id="About-us">
 
                 <div class="content-presentation">
                     <h2 class="titles-extra">
@@ -85,21 +85,27 @@
                         <img src="/images/before.jpg" alt="result before" class="before">
                         <img src="/images/after.jpg" alt="result after" class="after">
 
-                        <div class="stars-wrapper">
-                            <img src="/images/bigStar.jpg" alt="bigStar" class="bigstar stars">
-                            <img src="/images/middlestar.jpg" alt="middlestar" class="middlestar stars">
-                            <img src="/images/smallStar.jpg" alt="smallStar" class="smallstar stars">
+                        <div class="stars-block">
+                            <div class="stars-wrapper">
+                                <img src="/images/bigStar.jpg" alt="bigStar" class="bigstar stars">
+                            </div>
+                            <div class="stars-wrapper">
+                                <img src="/images/middlestar.jpg" alt="middlestar" class="middlestar stars">
+                            </div>
+                            <div class="stars-wrapper">
+                                <img src="/images/smallStar.jpg" alt="smallStar" class="smallstar stars">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
     </div>
     <div class="conteiner background-why-us">
-        <h2 class="titles center-class" id="s2">
+        <h2 class="titles center-class">
             Чому люди<br>
             <span>обирають нас</span>
         </h2>
-        <div class="why-us">
+        <div class="why-us" id="Why-us">
             <div class="three-block">
                 <img src="./images/atom.jpg" alt="atom">
                 <p class="text-to-why-us">
@@ -124,37 +130,46 @@
         </div>
     </div>
     <div class="conteiner">
-        <h2 class="titles center-class">Наші <span>процедури</span></h2>
-        <ul class="our-procedure" id="s3">
-            <button class="carousel-button" type="button">
-                <svg width="16" height="40px" >
-                    <use href="./images/icon.svg#icon-arrow"></use>
-                </svg>
-            </button>
-            <li class="formats-item">
-                <article class="formats-card">
-                    Маски
-                    для обличчя
-                </article>
-            </li>
-            <li class="formats-item">
-                <article class="formats-card">
-                    Ін'єкції
-                    для обличчя
-                </article>
-            </li>
-            <li class="formats-item">
-                <article class="formats-card">
-                    Очищення
-                    обличчя
-                </article>
-            </li>
-            <button class="carousel-button next" type="button">
-                <svg width="16" height="40px">
-                    <use href="./images/icon.svg#icon-arrow"></use>
-                </svg>
-            </button>
-        </ul>
+        <div id="Our-procedure">
+            <h2 class="titles center-class">Наші <span>процедури</span></h2>
+            <ul class="our-procedure" id="s3">
+                <button class="carousel-button" type="button">
+                    <svg width="16" height="40px" >
+                        <use href="./images/icon.svg#icon-arrow"></use>
+                    </svg>
+                </button>
+                <li class="formats-item">
+                    <article class="formats-card">
+                        <img class="format-image"
+                        src="./images/mask.png"
+                        alt="walrus">
+                        <p class="format-text">Маски
+                        для обличчя</p>
+                    </article>
+                </li>
+                <li class="formats-item">
+                    <article class="formats-card">
+                        <img class="format-image"
+                        src="./images/inject.png">
+                        <p class="format-text">Ін'єкції
+                        для обличчя</p>
+                    </article>
+                </li>
+                <li class="formats-item">
+                    <article class="formats-card">
+                        <img class="format-image"
+                        src="./images/clear.png">
+                        <p class="format-text">Очищення
+                        обличчя</p>
+                    </article>
+                </li>
+                <button class="carousel-button next" type="button">
+                    <svg width="16" height="40px">
+                        <use href="./images/icon.svg#icon-arrow"></use>
+                    </svg>
+                </button>
+            </ul>
+        </div>
     </div>
     <div class="conteiner">
         <h2 class="main-text center-class">Як нас <span>знайти</span></h2>
@@ -192,7 +207,7 @@
     </div>
 
 </div>
-<div class="footer">
+<div class="footer" id="Contact">
     <div class="conteiner">
         <div class="nav-link-bot">
             <div>

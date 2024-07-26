@@ -1,0 +1,59 @@
+.button {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    left: 15%;
+    transform: translate(-50%, 0);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    font-family: robotoregular;
+    background-color: var(--blue-light);
+    padding: 10px 20px 10px 20px;
+    border-radius: 32px;
+    border: 3px solid var(--blue-light);
+    color: var(--white);
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: var(--white);
+    color: var(--blue-dark);
+}
+
+button[disabled] {
+    background-color: var(--gray-light);
+    color: var(--gray-dark);
+    border-color: currentColor;
+}
+
+
+.modal-btn {
+    position: relative;
+    font-size: 18px;
+    background-color: var(--blue-light);
+    width: 100%;
+    max-width: 280px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    font-family: robotoregular;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 32px;
+    border: 3px solid var(--blue-light);
+    color: var(--white);
+    transition: background-color 0.3s;
+}
+
+.modal-btn:hover {
+    background-color: var(--white);
+    color: var(--blue-dark);
+}
+
+.modal-btn-close {
+    position: absolute;
+    top: 42px;
+    right: 42px;
+
+}

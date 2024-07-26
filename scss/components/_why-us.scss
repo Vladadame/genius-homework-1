@@ -1,0 +1,52 @@
+.why-us {
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.background-why-us {
+    background-image: url("../images/background-whyUs.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 200px;
+    padding-bottom: 200px
+}
+
+.three-block {
+    width: 310px;
+    height: 180px;
+    background-color: var(--white);
+    border-radius: 32px;
+    text-align: center;
+
+}
+
+.three-block img {
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+}
+
+.three-block p {
+    font-size: 18px;
+    font-family: robotoregular;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.three-image {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.text-to-why-us {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: robotoregular;
+    line-height: 24px;
+    flex-basis: calc((100% - 112px) / 3);
+
+}

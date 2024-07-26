@@ -1,0 +1,50 @@
+.before-after {
+    display: flex;
+    height: 655px;
+    justify-content: space-around;
+}
+
+.before {
+    display: flex;
+    height: 300px;
+    border-radius: 100%;
+    position: relative;
+    left: 130px;
+    top: -41px;
+}
+
+.after {
+    display: flex;
+    height: 300px;
+    border-radius: 100%;
+    position: relative;
+    top: 325px;
+    left: -5px;
+}
+
+.bigstar {
+    position: relative;
+    right: 450px;
+    top: 315px;
+}
+
+.middlestar {
+    position: relative;
+    right: 120px 
+}
+
+.smallstar {
+    position: relative;
+    top: 60px;
+}
+
+.main {
+    padding-top: 85px;
+}
+
+.text-to-presentation {
+    font-size: 22px;
+    font-family: robotoregular;
+    line-height: 38px;
+    font-weight: 400;
+}

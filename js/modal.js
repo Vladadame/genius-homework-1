@@ -26,19 +26,19 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 
-
-  const observer = new IntersectionObserver(entries => {
+const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      const square = entry.target.querySelector('.stars');
+      const stars = entry.target.querySelector('.stars');
   
       if (entry.isIntersecting) {
-        square.classList.add('stars-animation');
-      return; // if we added the class, exit the function
+        stars.classList.add('stars-animation');
+      } else {
+        stars.classList.remove('stars-animation'); // Reset animation when not intersecting
       }
-  
-      // We're not intersecting, so remove the class!
-      square.classList.remove('stars-animation');
     });
   });
   
-  observer.observe(document.querySelector('.stars-wrapper'));
+  // Select all three elements and observe each of them
+  document.querySelectorAll('.stars-wrapper').forEach(element => {
+    observer.observe(element);
+  });

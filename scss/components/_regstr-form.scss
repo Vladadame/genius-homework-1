@@ -1,0 +1,32 @@
+.register-form-conteiner {
+    height: 480px;
+    width: 420px;
+    text-align: center;
+    border: 1px solid #011c44;
+    border-radius: 32px;
+    background-color: var(--blue-dark);
+
+}
+
+.form-fields {
+    margin: 16px;
+}
+
+.fields {
+    padding: 18px 32px;
+    width: 100%;
+    max-width: 280px;
+    border-radius: 48px;
+    border: 2px solid #747272;
+    background-color: var(--blue-dark);
+}
+
+.fields:focus{
+    background-color: var(--white);
+
+}
+
+::placeholder {
+    color: var(--white);
+    padding-left: 20px;
+}

@@ -1,0 +1,127 @@
+.header {
+    height: 657px;
+    padding-bottom: 124px;
+    background: linear-gradient(to right, #EEF 0%, #eef calc(35% - 160px), transparent calc(63% - 30px), transparent calc(100% + 0px), #eef calc(64% + 160px), #eee 100%), url("../images/teethDoctor.jpg") no-repeat top right;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+
+@media screen and (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .header {
+        background-image: linear-gradient(102.76deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url("../images/teethDoctor.jpg");
+    }
+}
+
+.header__title {
+    margin-bottom: 48px;
+    color: var(--color-primary-light);
+    text-align: center;
+    font-size: 67px;
+    line-height: 1;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 1280px) {
+    .header__title {
+        margin-bottom: 0;
+        font-size: 128px;
+        line-height: 1.5;
+    }
+}
+
+.header__button {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .header__button {
+        display: none;
+    }
+}
+
+
+.header1 {
+    background: linear-gradient(to right, #EEF 0%, #eef calc(35% - 160px), transparent calc(63% - 30px), transparent calc(100% + 0px), #eef calc(64% + 160px), #eee 100%),
+      url("/images/teethDoctor.jpg") no-repeat top right;
+
+    height: 600px;
+    width: 100%;
+    font-family: robotoregular, sans-serif;
+}
+
+.icon-wrapper {
+    font-size: 25px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.address-icon-bot {
+    fill: var(--white);
+    height: 30px;
+}
+
+.navigation {
+    width: 100%;
+    height: 106px;
+    display: flex;
+    align-items: center;
+    background-color: var(--gray-light);
+    box-shadow: 0 0 1rem 0 var(--black);
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    font-family: playbold, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 21px;
+    height: 42px
+}
+
+.logo a {
+    color: var(--blue-light);
+}
+
+.nav-link {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.navig {
+    display: contents;
+    gap: 40px;
+}
+
+
+.names-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    color: var(--blue-dark);
+    font-size: 18px;
+    position: relative;
+    left: -34%;
+
+}
+
+.zagolovok {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: var(--blue-light);
+    width: 50%;
+    height: 318px;
+    font-size: 140px;
+    margin: 0;
+    font-family: playbold, sans-serif;
+}
